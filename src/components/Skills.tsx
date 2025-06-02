@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion';
-import { FaReact, FaNodeJs } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaJs } from 'react-icons/fa';
 import { SiTypescript, SiTailwindcss, SiSolidity } from 'react-icons/si';
 
 const skillsData = [
+  { icon: FaJs, name: 'JavaScript', color: 'text-yellow-400' },
   { icon: FaReact, name: 'React', color: 'text-blue-400' },
   { icon: FaNodeJs, name: 'Node.js', color: 'text-green-500' },
   { icon: SiTypescript, name: 'TypeScript', color: 'text-blue-600' },
