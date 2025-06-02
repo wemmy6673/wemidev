@@ -14,12 +14,12 @@ const skillsData = [
 const Skills = () => {
   return (
     <section className="py-20 bg-gray-900">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-4xl font-bold text-center text-white mb-12"
+          className="text-3xl font-semibold text-center text-white mb-12 tracking-tight"
         >
           Skills & Technologies
         </motion.h2>
@@ -34,7 +34,7 @@ const Skills = () => {
                 className="flex flex-col items-center"
               >
                 <skill.icon className={`text-5xl ${skill.color} mb-3`} />
-                <h3 className="text-white text-lg font-medium">{skill.name}</h3>
+                <h3 className="text-white text-base font-medium tracking-wide">{skill.name}</h3>
               </motion.div>
             ))}
           </div>
