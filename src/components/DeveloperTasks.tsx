@@ -9,7 +9,7 @@ const developerTasks: Task[] = [
   {
     title: "UI Development",
     tasks: [
-      "Build responsive layouts",
+      "To build responsive layouts",
       "Create reusable components",
       "Implement modern UI/UX designs",
       "Ensure accessibility standards"
@@ -18,7 +18,7 @@ const developerTasks: Task[] = [
   {
     title: "Frontend Logic",
     tasks: [
-      "Write clean TypeScript code",
+      "Write clean & readable code",
       "Manage state and data flow",
       "Handle API integrations",
       "Optimize performance"

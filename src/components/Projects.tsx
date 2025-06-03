@@ -13,7 +13,7 @@ const projectsData = [
     image: dashboard,
     technologies: ['React', 'Javascript', 'Tailwind CSS'],
     github: 'https://github.com/wemmy6673/project1',
-    live: 'https://project1.com'
+    live: ''
   },
   {
     title: 'Zonecam',
@@ -36,6 +36,7 @@ const Projects = () => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -54,7 +55,7 @@ const Projects = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-4xl font-bold text-center text-white mb-12"
+          className="text-3xl font-bold text-center text-white mb-12"
         >
           Featured Projects
         </motion.h2>
