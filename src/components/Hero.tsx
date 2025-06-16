@@ -53,7 +53,7 @@ const Hero = () => {
         </motion.div>
 
         <div className="h-12 mb-2">
-          <h1 className="text-xl md:text-3xl font-semibold tracking-tight relative inline-block">
+          <h1 className="text-3xl md:text-3xl font-semibold tracking-tight relative inline-block">
             {displayText}
             <span className="absolute right-[-4px] w-[2px] h-[80%] top-[10%] bg-blue-400 animate-pulse"></span>
           </h1>
