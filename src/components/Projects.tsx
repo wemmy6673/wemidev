@@ -5,11 +5,12 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import dashboard from '../images/dashboard.png';
 import zonecam from '../images/zonecam.png';
+import mndl from '../images/mandela.png';
 
 const projectsData = [
   {
     title: 'Cordin8',
-    description: 'A task managing web application built with React and Node.js.',
+    description: 'A task managing  and feedbackweb application.',
     image: dashboard,
     technologies: ['React', 'Javascript', 'Tailwind CSS'],
     github: 'https://github.com/wemmy6673/project1',
@@ -17,11 +18,19 @@ const projectsData = [
   },
   {
     title: 'Zonecam',
-    description: 'A Geopolitical zone prediction web application.',
+    description: 'An AI-powered Geopolitical zone prediction web application.',
     image: zonecam,
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Python'],
     github: 'https://github.com/wemmy6673/Zonecam',
     live: 'https://zonecam.vercel.app/'
+  },
+  {
+    title: 'Mndl',
+    description: 'The Mandela Effect is a phenomenon where large groups of people remember events differently than how they actually occurred',
+    image: mndl,
+    technologies: ['React', 'Javascript', 'Tailwind CSS'],
+    github: 'https://github.com/wemmy6673/mandela',
+    live: 'https://mndl.fun/'
   }
   
 ];
@@ -78,7 +87,7 @@ const Projects = () => {
                   </div>
                   <div className="p-6">
                     <h3 className="text-2xl font-bold text-white mb-2">{project.title}</h3>
-                    <p className="text-gray-300 mb-4">{project.description}</p>
+                    <p className="text-gray-300 mb-4 text-justify">{project.description}</p>
                     <div className="flex flex-wrap gap-2 mb-4">
                       {project.technologies.map((tech) => (
                         <span
