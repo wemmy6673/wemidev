@@ -10,7 +10,7 @@ import mndl from '../images/mandela.png';
 const projectsData = [
   {
     title: 'Cordin8',
-    description: 'A task managing  and feedbackweb application.',
+    description: 'A task managing  and feedback web application.',
     image: dashboard,
     technologies: ['React', 'Javascript', 'Tailwind CSS'],
     github: 'https://github.com/wemmy6673/project1',
