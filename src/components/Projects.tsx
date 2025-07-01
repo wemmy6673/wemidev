@@ -26,7 +26,7 @@ const projectsData = [
   },
   {
     title: 'Mndl',
-    description: 'The Mandela Effect is a phenomenon where large groups of people remember events differently than how they actually occurred',
+    description: 'A platform that explores alternate realities and timelines.',
     image: mndl,
     technologies: ['React', 'Javascript', 'Tailwind CSS'],
     github: 'https://github.com/wemmy6673/mandela',
